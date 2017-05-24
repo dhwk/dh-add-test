@@ -577,9 +577,9 @@ debug@^2.2.0:
   dependencies:
     ms "2.0.0"
 
-dh-add-test@^0.1.0:
+dhwk-add-test@^0.1.0:
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/dh-add-test/-/dh-add-test-0.1.0.tgz#89a6353d8ec1e701d9d039b3f63c76e15ab2f115"
+  resolved "https://registry.yarnpkg.com/dhwk-add-test/-/dhwk-add-test-0.1.0.tgz#89a6353d8ec1e701d9d039b3f63c76e15ab2f115"
 
 escape-string-regexp@^1.0.2:
   version "1.0.5"

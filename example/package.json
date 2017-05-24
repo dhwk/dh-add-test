@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "dh-add-test": "*"
+    "dhwk-add-test": "*"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",

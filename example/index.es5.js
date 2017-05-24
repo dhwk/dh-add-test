@@ -1,3 +1,3 @@
-var add = require("dh-add-test");
+var add = require("dhwk-add-test");
 
 console.log(add(20,22))

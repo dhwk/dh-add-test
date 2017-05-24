@@ -1,5 +1,5 @@
 {
-  "name": "dh-add-test",
+  "name": "dhwk-add-test",
   "version": "1.0.0",
   "description": "A library for adding two numbers",
   "main": "dist/main.js",
@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhwk/dh-add-test.git"
+    "url": "git+https://github.com/dhwk/dhwk-add-test.git"
   },
   "bugs": {
-    "url": "https://github.com/dhwk/dh-add-test/issues"
+    "url": "https://github.com/dhwk/dhwk-add-test/issues"
   },
-  "homepage": "https://github.com/dhwk/dh-add-test",
+  "homepage": "https://github.com/dhwk/dhwk-add-test",
   "devDependencies": {
     "babel-jest": "^20.0.3",
     "babel-plugin-external-helpers": "^6.22.0",
