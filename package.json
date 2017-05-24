@@ -1,0 +1,47 @@
+{
+  "name": "dh-add-test",
+  "version": "1.0.0",
+  "description": "A library for adding two numbers",
+  "main": "dist/main.js",
+  "jsnext:main": "src/main.js",
+  "minified:main": "dist/main.min.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run transpile; npm run minify",
+    "transpile": "NODE_ENV=production rollup -c",
+    "minify": "uglifyjs dist/main.js -c collapse_vars,evaluate,unsafe,unused,dead_code -m -o dist/main.min.js -p relative --in-source-map dist/main.js.map --source-map",
+    "prepublish": "npm run build",
+    "test": "NODE_ENV=development jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "author": {
+    "name": "dhwk",
+    "email": "dhwk1861@gmail.com"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhwk/dh-add-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhwk/dh-add-test/issues"
+  },
+  "homepage": "https://github.com/dhwk/dh-add-test",
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "coveralls": "^2.13.1",
+    "jest": "^20.0.3",
+    "rimraf": "^2.6.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-memory": "^2.0.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "uglify-js": "^3.0.11"
+  }
+}
