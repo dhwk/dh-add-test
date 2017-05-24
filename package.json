@@ -1,6 +1,6 @@
 {
   "name": "dhwk-add-test",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A library for adding two numbers",
   "main": "dist/main.js",
   "jsnext:main": "src/main.js",
